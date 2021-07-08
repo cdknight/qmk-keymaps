@@ -3,10 +3,10 @@
 This is a repository of my QMK keymaps for the keyboards I own.
 
 * Installation
-Install the keymaps to your QMK firmware directory (assumed to be ~\~/qmk_firmware~) with ~make link~
+Install the keymaps to your QMK firmware directory (assumed to be ~$HOME/qmk_firmware~) with ~make link~
 
 * Uninstallation
-Install the keymaps your QMK firmware directory (again assumed to be ~\~/qmk_firmware~) with ~make unlink~
+Install the keymaps your QMK firmware directory (again assumed to be ~$HOME/qmk_firmware~) with ~make unlink~
 
 * Flash
 Flash with ~make planck~ or ~make 1up60hse~
