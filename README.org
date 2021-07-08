@@ -1,3 +1,12 @@
 #+TITLE: My QMK Keymaps
 
-This is a repository of my QMK keymaps for the keyboards I own. To use this, simply run ~ln -sf keyboards ~/qmk_firmware~, and flash the appropriate keyboard.
+This is a repository of my QMK keymaps for the keyboards I own.
+
+* Installation
+Install the keymaps to your QMK firmware directory (assumed to be ~~/qmk_firmware~) with ~make link~
+
+* Uninstallation
+Install the keymaps your QMK firmware directory (again assumed to be ~~/qmk_firmware~) with ~make unlink~
+
+* Flash
+Flash with ~make planck~ or ~make 1up60hse~
